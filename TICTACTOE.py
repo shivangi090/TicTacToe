@@ -20,7 +20,7 @@ class tictactoe:
         n=9
         c=None
         while n!=1 and c==None:
-            a=int(input("Choose your index"))
+            a=int(input("Choose your index or the number that has not been chosen before"))
             print("-------------------------")
             if a in l:
                 l[a-1]="x"
